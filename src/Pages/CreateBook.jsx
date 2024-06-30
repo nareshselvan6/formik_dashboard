@@ -35,8 +35,7 @@ const CreateBook = () => {
         datafetch(values)
                
     }
-    console.log(newdata);
-
+    
     const Schema=YUP.object().shape({
         title:YUP.string().required("Title must be added"),
         author:YUP.string().required("Author must be added"), 
